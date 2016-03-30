@@ -1,0 +1,22 @@
+{
+  "name": "alphagraphics/laravel-kendo-ui",
+  "description": "",
+  "authors": [
+    {
+      "name": "Volia-Software",
+      "email": "oleksa.synytskiy@volia-software.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0"
+  },
+  "require-dev": {
+    "mockery/mockery": "dev-master"
+  },
+  "autoload": {
+    "psr-0": {
+      "php": "wrappers/"
+    }
+  },
+  "minimum-stability": "dev"
+}
