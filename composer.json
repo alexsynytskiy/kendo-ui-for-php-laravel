@@ -12,7 +12,7 @@
   },
   "autoload": {
     "psr-4": {
-      "": "wrappers/"
+      "voliasoftware\\kendoui\\": "wrappers/php"
     }
   },
   "minimum-stability": "dev"
