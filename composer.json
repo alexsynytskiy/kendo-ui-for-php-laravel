@@ -1,6 +1,9 @@
 {
   "name": "synytskiy/laravel-kendo-ui",
-  "description": "",
+  "description": "Kendo UI package for Laravel",
+  "keywords": ["framework", "laravel","package", "kendo ui"],
+  "type": "library",
+  "license": "MIT",
   "authors": [
     {
       "name": "Oleksa Synytskiy",
@@ -10,12 +13,14 @@
   "minimum-stability": "dev",
   "prefer-stable" : true,
   "require": {
-    "php": ">=5.3.0"
+    "php": ">=5.4.0"
   },
   "autoload": {
-    "files": ["wrappers/php/lib/Kendo/Autoload.php"],
-    "psr-0": {
-      "Kendo\\": "wrappers/php/lib/"
+    "classmap": [
+      "wrappers/php/lib/Kendo/Autoload.php"
+    ],
+    "psr-4": {
+      "Kendo\\": "wrappers/php/lib/Kendo/"
     }
   },
   "scripts": {
