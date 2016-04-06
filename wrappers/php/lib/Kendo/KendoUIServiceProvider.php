@@ -14,7 +14,7 @@ class KendoUIServiceProvider extends ServiceProvider {
     public function boot()
     {
 		$this->publishes([
-			__DIR__.'/../../vendor/synytskiy/laravel-kendo-ui/wrappers/php/content/' => public_path('vendor/synytskiy'),
+			__DIR__.'/../../content/' => public_path('vendor/synytskiy'),
 		], 'public');
     }
 
