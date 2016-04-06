@@ -1,5 +1,7 @@
 <?php
 
+namespace Kendo;
+
 use \Illuminate\Foundation\Application;
 
 class DataSourceManager

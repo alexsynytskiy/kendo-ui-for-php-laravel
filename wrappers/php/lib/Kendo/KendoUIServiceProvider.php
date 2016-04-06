@@ -1,5 +1,7 @@
 <?php
 
+namespace Kendo;
+
 use Illuminate\Support\ServiceProvider;
 
 class KendoUIServiceProvider extends ServiceProvider {
