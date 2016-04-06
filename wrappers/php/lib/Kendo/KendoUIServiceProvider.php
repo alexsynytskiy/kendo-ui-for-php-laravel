@@ -25,11 +25,12 @@ class KendoUIServiceProvider extends ServiceProvider {
      */
     public function register()
     {
+        $this->app->register('Kendo\KendoUIServiceProvider');
+
         $this->app['laravel-kendo-ui'] = $this->app->share(function($app)
         {
             return new DataSourceManager($app);
         });
     }
-
 
 }
