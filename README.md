@@ -12,7 +12,7 @@ In project composer.json
     "repositories": [
 	  {
 		"type": "vcs",
-		"url": "git@bitbucket.org:alphagraphics/phoenix-packages.git"
+		"url": "git@github.com:alexsynytskiy/kendo-ui-for-php-laravel.git"
 	  }
 	]
     
